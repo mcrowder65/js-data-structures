@@ -1,0 +1,29 @@
+{
+  "name": "js-data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "linter": "eslint src --ext .js",
+    "jest": "jest --coverage --silent",
+    "jest:watch": "jest --coverage --silent --watchAll",
+    "test": "npm run linter && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcrowder65/js-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcrowder65/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/mcrowder65/js-data-structures#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "eslint-config-mcrowder65": "0.0.32",
+    "jest": "23.6.0"
+  }
+}
